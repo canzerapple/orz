@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0ab53482-f258-4d16-b98b-a5132373de3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{1c51527a-8aee-48ca-99b8-3d9544c661d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\exception">
+      <UniqueIdentifier>{340d3900-77b4-4d32-887f-e1fa5439aff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings">
+      <UniqueIdentifier>{94378afe-5c35-4944-9abc-398463450fbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="configuare.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefine.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\argument.hpp">
+      <Filter>include\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="numeric.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="strings\range.hpp">
+      <Filter>include\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="strings\format.hpp">
+      <Filter>include\strings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
